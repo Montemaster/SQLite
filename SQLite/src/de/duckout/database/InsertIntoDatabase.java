@@ -70,24 +70,4 @@ public class InsertIntoDatabase {
 		}
 	}
 	
-//	public void insertAutoIncrement(Connection connection) {
-//		String insertData = "INSERT INTO duckout VALUES (?, ?)";
-//
-//		try {
-//			PreparedStatement preparedStatement = connection
-//					.prepareStatement(insertData);
-//			
-//			preparedStatement.setString(2, "Value");
-//			preparedStatement.execute();
-//			
-//			preparedStatement.setString(2, "Value");
-//			preparedStatement.execute();
-//			
-//			preparedStatement.setString(2, "Value");
-//			preparedStatement.execute();
-//		} catch (SQLException e) {
-//			e.printStackTrace();
-//		}
-//	}
-	
 }

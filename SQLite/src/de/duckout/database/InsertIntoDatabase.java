@@ -7,6 +7,10 @@ import java.sql.Statement;
 
 public class InsertIntoDatabase {
 
+	/**
+	 * Inserts exactly one line into the TABLE duckout
+	 * @param connection
+	 */
 	public void insertOneLine(Connection connection) {
 		String insertData = "INSERT INTO duckout VALUES (1,\"First Value\")";
 
@@ -18,6 +22,10 @@ public class InsertIntoDatabase {
 		}
 	}
 
+	/**
+	 * Using PreparedStatement to insert data
+	 * @param connection
+	 */
 	public void preparedStatement(Connection connection) {
 		//The questionmark is used as a placeholder 
 		String insertData = "INSERT INTO duckout (id, value) VALUES (?, ?)";
@@ -37,6 +45,10 @@ public class InsertIntoDatabase {
 		}
 	}
 	
+	/**
+	 * Using a Batch Job to insert data
+	 * @param connection
+	 */
 	public void insertBatch(Connection connection){
 		String insertData = "INSERT INTO duckout VALUES (?, ?)";
 

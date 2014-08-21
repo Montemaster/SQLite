@@ -9,7 +9,7 @@ public class DuckoutDatabase {
 
 	public void createTable(Connection connection) {
 		String createTable = "CREATE TABLE IF NOT EXISTS duckout "
-				+ "(ID INT PRIMARY KEY NOT NULL," + "VALUE TEXT NOT NULL)";
+				+ "(ID INT AUTO_INCREMENT PRIMARY KEY NOT NULL," + "VALUE TEXT NOT NULL)";
 
 		try {
 			Statement statement = connection.createStatement();

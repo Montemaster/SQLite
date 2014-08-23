@@ -85,7 +85,7 @@ public class InsertIntoDatabase {
 	}
 
 	/**
-	 * Mockup data with a certain amount
+	 * Mockup a certain amount of data
 	 * @param connection
 	 * @param amount
 	 */

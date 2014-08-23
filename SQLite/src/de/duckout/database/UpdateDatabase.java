@@ -21,6 +21,7 @@ public class UpdateDatabase {
 		
 		try {
 			PreparedStatement preparedStatement = connection.prepareStatement(update);
+			//Use Parameters to set ID and VALUE
 			preparedStatement.setString(1, value);
 			preparedStatement.setInt(2, id);
 			preparedStatement.executeUpdate();

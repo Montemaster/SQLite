@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
- * @author duckout.de
+ * @author Duckout.de
  * Is used to execute several DELETE operations
  */
 public class CleanDatabase {

@@ -9,7 +9,6 @@ public class InsertIntoDatabase {
 
 	/**
 	 * Inserts exactly one line into the TABLE duckout
-	 * 
 	 * @param connection
 	 */
 	public void insertOneLine(Connection connection) {
@@ -25,7 +24,6 @@ public class InsertIntoDatabase {
 
 	/**
 	 * Using PreparedStatement to insert data
-	 * 
 	 * @param connection
 	 */
 	public void preparedStatement(Connection connection) {
@@ -49,7 +47,6 @@ public class InsertIntoDatabase {
 
 	/**
 	 * Using a Batch Job to insert data
-	 * 
 	 * @param connection
 	 */
 	public void insertBatch(Connection connection) {

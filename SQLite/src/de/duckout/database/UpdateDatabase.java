@@ -6,7 +6,6 @@ import java.sql.SQLException;
 
 /**
  * @author Duckout.de
- * Offers UPDATE methods to the database
  */
 public class UpdateDatabase {
 

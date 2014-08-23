@@ -6,7 +6,6 @@ import java.sql.SQLException;
 
 /**
  * @author Duckout.de
- * Handles the SQLite Connection
  */
 public class DatabaseConnection {
 	

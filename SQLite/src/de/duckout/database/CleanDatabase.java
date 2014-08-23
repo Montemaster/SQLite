@@ -7,7 +7,6 @@ import java.sql.Statement;
 
 /**
  * @author Duckout.de
- * Is used to execute several DELETE operations
  */
 public class CleanDatabase {
 

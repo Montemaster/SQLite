@@ -10,7 +10,8 @@ import java.sql.SQLException;
 public class UpdateDatabase {
 
 	/**
-	 * Updates the table duckout. Uses the id to change a value.
+	 * Updates the TABLE duckout.
+	 * Uses the id to change a value.
 	 * @param connection
 	 * @param value
 	 * @param id

@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 /**
- * @author monte
+ * @author Duckout.de
  * Offers UPDATE methods to the database
  */
 public class UpdateDatabase {
